@@ -15,8 +15,7 @@ Este projeto foi desenvolvido utilizando PHP nativo, HTML, CSS, BOOTSTRAP 5, Git
 ## Padrão de Nomes para Features
 
 As features e correções devem seguir o padrão abaixo para facilitar o entendimento e rastreamento no projeto:
-
-{Feat/issue-numero-da-issue-descricao-da-issue}
+- Feat/issue-numero-da-issue-descricao-da-issue
 
 
 ### Exemplo
