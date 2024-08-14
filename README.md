@@ -1,6 +1,6 @@
 ﻿# Projeto - Criação de Certificado pdf
 
-Este projeto foi desenvolvido utilizando PHP nativo, HTML, CSS, Git, e GitHub. O objetivo é criar uma aplicação web simples, seguindo boas práticas de versionamento de código e organização de projetos.
+Este projeto foi desenvolvido utilizando PHP nativo, HTML, CSS, BOOTSTRAP 5, Git, e GitHub. O objetivo é criar uma aplicação web simples, seguindo boas práticas de versionamento de código e organização de projetos.
 
 ## Tecnologias Utilizadas
 
