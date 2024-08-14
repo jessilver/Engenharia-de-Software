@@ -7,7 +7,7 @@ Este projeto foi desenvolvido utilizando PHP nativo, HTML, CSS, Git, e GitHub. O
 - **PHP Nativo:** Para o backend e lógica da aplicação.
 - **HTML:** Estruturação do conteúdo e das páginas web.
 - **CSS:** Estilização das páginas web para uma melhor experiência do usuário.
-- **BOOTSTRAP 5:** Estilização das páginas web para uma melhor experiência do usuário.
+- **[BOOTSTRAP 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/):** Estilização das páginas web para uma melhor experiência do usuário.
 - **Git:** Controle de versão do código.
 - **GitHub:** Hospedagem do repositório remoto.
 - **Gitflow:** Modelo de ramificação para organização do desenvolvimento.
