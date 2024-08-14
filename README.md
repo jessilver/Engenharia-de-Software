@@ -30,7 +30,6 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
 1. **Instalar o XAMPP:**
 
    - Faça o download e instale o [XAMPP](https://www.apachefriends.org/index.html).
-   - Certifique-se de que o Apache está em execução.
 
 2. **Configurar o Ambiente:**
 
