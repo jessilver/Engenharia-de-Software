@@ -41,7 +41,6 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
      ```bash
      git clone https://github.com/jessilver/Engenharia-de-Software.git
      ```
-   - 
 
 4. **Iniciar o Servidor:**
 
