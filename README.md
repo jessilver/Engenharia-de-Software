@@ -16,7 +16,7 @@ Este projeto foi desenvolvido utilizando PHP nativo, HTML, CSS, BOOTSTRAP 5, Git
 
 As features e correções devem seguir o padrão abaixo para facilitar o entendimento e rastreamento no projeto:
 
-{Feat/issue-[numero-da-issue]-[descricao-da-issue]}
+{Feat/issue-numero-da-issue-descricao-da-issue}
 
 
 ### Exemplo
@@ -64,7 +64,7 @@ Para criar uma nova branch para desenvolver uma feature, siga os passos abaixo:
 
 3. Crie uma nova branch para a `feature` utilizando o padrão de nomenclatura definido:
    ```bash
-   git checkout -b Feat/issue-\[numero-da-issue\]-\[descricao-da-issue\]
+   git checkout -b Feat/issue-numero-da-issue-descricao-da-issue
    ```
 
 ## Realizar um Push
@@ -83,7 +83,7 @@ Após ter realizado as alterações na sua branch, siga os passos para enviar as
 
 3. Envie (push) as mudanças para a sua branch no GitHub:
    ```bash
-   git push origin Feat/issue-\[numero-da-issue\]-\[descricao-da-issue\]
+   git push origin Feat/issue-numero-da-issue-descricao-da-issue
    ```
 Exemplo:
    ```bash
@@ -94,7 +94,7 @@ Exemplo:
 
 - **Main:** Contém a versão estável e em produção.
 - **Develop:** Contém as últimas alterações que serão futuramente incluídas na Master.
-- **Feature Branches:** Utilizadas para o desenvolvimento de novas funcionalidades (padrão `Feat/issue-[numero-da-issue]-[descricao-da-issue]`).
+- **Feature Branches:** Utilizadas para o desenvolvimento de novas funcionalidades (padrão `Feat/issue-numero-da-issue-descricao-da-issue`).
 - **Release Branches:** Preparação das novas versões para produção.
 - **Hotfix Branches:** Correções de bugs em produção.
 
