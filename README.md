@@ -73,7 +73,7 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
 
    - Dentro do projeto (geradoPdf/) execute o seguinte coamndo:
    ```bash
-     py .\manage.py runserver 
+     py manage.py runserver 
    ```
    - Em seguida va para: http://127.0.0.1:8000/
 
