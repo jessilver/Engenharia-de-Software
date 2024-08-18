@@ -49,10 +49,10 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
    ```
    - Para iniciar a maquina virtual execute os seguintes comandos:
    ```bash
-     cd .\venv\Scripts\
+     cd venv/Scripts
    ```
    ```bash
-     .\activate  
+     activate  
    ```
    - Para voltar para o projeto execute os seguintes comandos:
    ```bash
