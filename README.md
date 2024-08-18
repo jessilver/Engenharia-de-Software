@@ -1,10 +1,10 @@
 ﻿# Projeto - Criação de Certificado pdf
 
-Este projeto foi desenvolvido utilizando PHP nativo, HTML, CSS, BOOTSTRAP 5, Git, e GitHub. O objetivo é criar uma aplicação web simples, seguindo boas práticas de versionamento de código e organização de projetos.
+Este projeto foi desenvolvido utilizando Django 5.1, HTML, CSS, BOOTSTRAP 5, Git, e GitHub. O objetivo é criar uma aplicação web simples, seguindo boas práticas de versionamento de código e organização de projetos.
 
 ## Tecnologias Utilizadas
 
-- **PHP Nativo:** Para o backend e lógica da aplicação.
+- **[Django 5.1](https://www.djangoproject.com/start/):** Para o backend e lógica da aplicação.
 - **HTML:** Estruturação do conteúdo e das páginas web.
 - **CSS:** Estilização das páginas web para uma melhor experiência do usuário.
 - **[BOOTSTRAP 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/):** Estilização das páginas web para uma melhor experiência do usuário.
@@ -26,26 +26,56 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
 
 ## Como Iniciar o Projeto
 
-1. **Instalar o XAMPP:**
+1. **Certifique-se que tem o Python instalado:**
 
-   - Faça o download e instale o [XAMPP](https://www.apachefriends.org/index.html).
+   - No seu cmd execute o seguinte coamndo:
+   ```bash
+     python --version
+   ```
+   - Se não estiver instaldo: [Python](https://www.python.org/downloads/)
 
-2. **Configurar o Ambiente:**
+2. **Instalando o Django:**
 
-   - Coloque o projeto na pasta `htdocs` do XAMPP.
-   - ![image](https://github.com/user-attachments/assets/a278414a-ecb7-4687-8fdc-4d5897c43752)
-   - ![image](https://github.com/user-attachments/assets/12fb0194-72cf-4eb4-a3e5-1bd1018cd450)
-   - ![image](https://github.com/user-attachments/assets/87a65c71-4bdc-4848-87bd-0ebb9f23faf9)
-   - Abra o terminal e clone o repositório:
-     ```bash
-     git clone https://github.com/jessilver/Engenharia-de-Software.git
-     ```
+   - No seu cmd execute o seguinte coamndo:
+   ```bash
+     pip install django
+   ```
 
-4. **Iniciar o Servidor:**
+3. **Criando a Máquina virtual:**
 
-   - Abra o XAMPP e inicie o Apache.
-   - ![image](https://github.com/user-attachments/assets/edf60fc2-57a6-4a73-9428-7c92e816ca92)
-   - Acesse a aplicação através do navegador: `http://localhost/` ou `http://127.0.0.1`.
+   - Dentro do projeto (geradoPdf/) execute o seguinte coamndo:
+   ```bash
+     py -m venv venv
+   ```
+   - Para iniciar a maquina virtual execute os seguintes comandos:
+   ```bash
+     cd .\venv\Scripts\
+   ```
+   ```bash
+     .\activate  
+   ```
+   - Para voltar para o projeto execute os seguintes comandos:
+   ```bash
+     cd .. 
+   ```
+   ```bash
+     cd .. 
+   ```
+
+4. **Instalando os requisitos na Máquina Virtual:**
+
+   - No seu cmd execute o seguinte coamndo:
+   ```bash
+     pip install -r requirements.txt
+   ```
+
+5. **Iniciando o servidor:**
+
+   - Dentro do projeto (geradoPdf/) execute o seguinte coamndo:
+   ```bash
+     py .\manage.py runserver 
+   ```
+   - Em seguida va para: http://127.0.0.1:8000/
 
 ## Criar uma Nova Branch para uma Feature
 
