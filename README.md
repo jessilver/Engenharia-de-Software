@@ -1,5 +1,19 @@
 ﻿# Projeto - Criação de Certificado pdf
 
+## Informações Acadêmicas:
+
+### Universidade Federal do Tocantins
+### Curso de Bacharelado em Ciência da Computação
+### Disciplina de Engenharia de Software
+### Turma 2024/2
+### Professor Dr. Edeilson Milhomem da Silva
+
+### Integrantes:
+- Arthur Lima Duarte
+- Gabriel Fernades Zamora
+- Jessé Eliseu Nunes da Silva
+- Jonatas de Sousa Madeira
+
 Este projeto foi desenvolvido utilizando Django 5.1, HTML, CSS, BOOTSTRAP 5, Git, e GitHub. O objetivo é criar uma aplicação web simples, seguindo boas práticas de versionamento de código e organização de projetos.
 
 ## Tecnologias Utilizadas
@@ -10,13 +24,12 @@ Este projeto foi desenvolvido utilizando Django 5.1, HTML, CSS, BOOTSTRAP 5, Git
 - **[BOOTSTRAP 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/):** Estilização das páginas web para uma melhor experiência do usuário.
 - **Git:** Controle de versão do código.
 - **GitHub:** Hospedagem do repositório remoto.
-- **Gitflow:** Modelo de ramificação para organização do desenvolvimento.
+- **Gitflow:** Modelo de ramificação para organização do desenvolvimento. 
 
 ## Padrão de Nomes para Features
 
 As features e correções devem seguir o padrão abaixo para facilitar o entendimento e rastreamento no projeto:
 - Feat/issue-numero-da-issue-descricao-da-issue
-
 
 ### Exemplo
 
@@ -24,7 +37,9 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
 
 **Observação:** Não utilizar caracteres especiais. O mesmo padrão aplicado na criação de nomes de variáveis.
 
-## Como Iniciar o Projeto
+# Como Iniciar o Projeto
+
+## Configurando o Ambiente
 
 1. **Certifique-se que tem o Python instalado:**
 
