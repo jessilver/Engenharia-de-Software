@@ -10,11 +10,59 @@
     {% bootstrap_css %}
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
-<body>
-    <div class="container">
-        <div class="card shadow arround mt-5">
-            <h1>teste</h1>
-        </div>
+<body id="preenchimentoDadosCertificado">
+    <div class="container mt-">
+        <form method="post" action="{% url 'index' %}" class="card shadow arround">
+            <div class="titulosCards mb-4">
+                <h3 class="text-body-secondary">Gerar Certificado</h3>
+            </div>
+
+            <label for="nomeAluno" class="form-label">Nome do aluno:</label>
+            <input type="text" class="form-control mb-2" id="nomeAluno" placeholder="Digite o nome do aluno">
+
+            
+
+            <div class="row g-3 mb-2">
+                <div class="col">
+                    <label for="cpfAluno" class="form-label">CPF do aluno:</label>
+                    <input type="text" class="form-control" id="cpfAluno" placeholder="Digite o CPF do aluno">
+                </div>
+                <div class="col">
+                    <label for="rgAluno" class="form-label">RG do aluno:</label>
+                    <input type="text" class="form-control" id="rgAluno" placeholder="Digite o RG do aluno">
+                </div>
+            </div>
+
+            <div class="row g-3">
+                <div class="col">
+                    <label for="inicioCurso" class="form-label">Inicio do curso:</label>
+                    <input type="date" class="form-control" id="inicioCurso" placeholder="dd/mm/aaaa">
+                </div>
+                <div class="col">
+                    <label for="fimCurso" class="form-label">Fim do curso:</label>
+                    <input type="date" class="form-control" id="fimCurso" placeholder="dd/mm/aaaa">
+                </div>
+            </div>
+
+            <label for="nomeCurso" class="form-label">Curso:</label>
+            <input type="text" class="form-control mb-2" id="nomeCurso" placeholder="Digite o nome do curso">
+
+            <label for="cargaHoraria" class="form-label">Carga horária (horas):</label>
+            <input type="number" class="form-control mb-2" id="cargaHoraria" placeholder="Carga horária do curso (em horas)">
+
+            <div class="row g-3 mb-2">
+                <div class="col">
+                    <label for="instituicaoCurso" class="form-label">Instituição:</label>
+                    <input type="text" class="form-control" id="instituicaoCurso" placeholder="Instituição do curso">
+                </div>
+                <div class="col">
+                    <label for="responsavelCurso" class="form-label">Responsável:</label>
+                    <input type="text" class="form-control" id="responsavelCurso" placeholder="Digite o nome do responsável pelo curso">
+                </div>
+            </div>
+
+            <button class="btn btn-success botaoCadastrar mt-3" type="submit">Cadastrar</button>
+        </form>
     </div>
 </body>
 </html>

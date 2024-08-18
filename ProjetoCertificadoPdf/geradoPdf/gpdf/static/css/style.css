@@ -3,3 +3,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+#preenchimentoDadosCertificado {
+    background-color: rgb(125, 155, 194);
+    padding: 30px;
+}
+
+#preenchimentoDadosCertificado form {
+    display: flex;
+    max-width: 80%;
+    min-height: 200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.botaoCadastrar {
+    width: 100%;
+}
+
+.titulosCards {
+    text-align: center;
+    padding-bottom: 10px;
+    width: 100%;
+    margin-top: 3%;
+    border-bottom: solid 7px rgb(23, 22, 71);
+}
