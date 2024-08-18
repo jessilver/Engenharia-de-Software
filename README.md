@@ -2,17 +2,19 @@
 
 ## Informações Acadêmicas:
 
-Universidade Federal do Tocantins
-Curso de Bacharelado em Ciência da Computação
-Disciplina de Engenharia de Software
-Turma 2024/2
-Professor Dr. Edeilson Milhomem da Silva
+- Universidade Federal do Tocantins
+- Curso de Bacharelado em Ciência da Computação
+- Disciplina de Engenharia de Software
+- Turma 2024/2
+- Professor Dr. Edeilson Milhomem da Silva
 
 ### Integrantes:
 - Arthur Lima Duarte
 - Gabriel Fernades Zamora
 - Jessé Eliseu Nunes da Silva
 - Jonatas de Sousa Madeira
+
+## Sobre o Projeto
 
 Este projeto foi desenvolvido utilizando Django 5.1, HTML, CSS, BOOTSTRAP 5, Git, e GitHub. O objetivo é criar uma aplicação web simples, seguindo boas práticas de versionamento de código e organização de projetos.
 
