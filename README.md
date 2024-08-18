@@ -2,11 +2,11 @@
 
 ## Informações Acadêmicas:
 
-### Universidade Federal do Tocantins
-### Curso de Bacharelado em Ciência da Computação
-### Disciplina de Engenharia de Software
-### Turma 2024/2
-### Professor Dr. Edeilson Milhomem da Silva
+Universidade Federal do Tocantins
+Curso de Bacharelado em Ciência da Computação
+Disciplina de Engenharia de Software
+Turma 2024/2
+Professor Dr. Edeilson Milhomem da Silva
 
 ### Integrantes:
 - Arthur Lima Duarte
