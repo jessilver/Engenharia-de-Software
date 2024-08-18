@@ -13,23 +13,25 @@
 <body id="preenchimentoDadosCertificado">
     <div class="container mt-">
         <form method="post" action="{% url 'index' %}" class="card shadow arround">
+            {% csrf_token %}
+
             <div class="titulosCards mb-4">
                 <h3 class="text-body-secondary">Gerar Certificado</h3>
             </div>
 
             <label for="nomeAluno" class="form-label">Nome do aluno:</label>
-            <input type="text" class="form-control mb-2" id="nomeAluno" placeholder="Digite o nome do aluno">
+            <input type="text" class="form-control mb-2" id="nomeAluno" name="nomeAluno" placeholder="Digite o nome do aluno">
 
             
 
             <div class="row g-3 mb-2">
                 <div class="col">
                     <label for="cpfAluno" class="form-label">CPF do aluno:</label>
-                    <input type="text" class="form-control" id="cpfAluno" placeholder="Digite o CPF do aluno">
+                    <input type="text" class="form-control" id="cpfAluno" placeholder="Digite o CPF do aluno" oninput="formataCPF(this)" maxlength="14"> <!-- 14 -->
                 </div>
                 <div class="col">
                     <label for="rgAluno" class="form-label">RG do aluno:</label>
-                    <input type="text" class="form-control" id="rgAluno" placeholder="Digite o RG do aluno">
+                    <input type="text" class="form-control" id="rgAluno" oninput="formataRG(this)" placeholder="Digite o RG do aluno" maxlength="11">
                 </div>
             </div>
 
@@ -65,4 +67,6 @@
         </form>
     </div>
 </body>
+
+<script src="{% static 'js/scripts.js' %}"></script>
 </html>
