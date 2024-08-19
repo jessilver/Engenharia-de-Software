@@ -30,7 +30,7 @@ Este projeto foi desenvolvido utilizando Django 5.1, HTML, CSS, BOOTSTRAP 4, Git
 
 ## Video onde mostra o projeto funcionando:
 
-https://github.com/user-attachments/assets/51ce9e9c-6f54-412a-9181-ff086ee55e85
+
 
 ## Requisitos Implementados
 
@@ -169,7 +169,7 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
 
 ## Video para Melhor vizualização:
 
-
+https://github.com/user-attachments/assets/51ce9e9c-6f54-412a-9181-ff086ee55e85
 
 ## Criar uma Nova Branch para uma Feature
 
