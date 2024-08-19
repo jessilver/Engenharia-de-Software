@@ -93,6 +93,8 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
 
 # Como Iniciar o Projeto
 
+**Lembrando que tem um vídeo no final para melhor visualização**
+
 ## Configurando o Ambiente
 
 1. **Certifique-se que tem o Python e o Git instalado:**
