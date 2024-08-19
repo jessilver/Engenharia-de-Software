@@ -228,54 +228,53 @@ Exemplo:
 1. Na pagina inicial do projeto no Git Hub: [Engenharia-de-Software](https://github.com/jessilver/Engenharia-de-Software)
    - Clique em `Pull requests`
 
-
+![pullrequest1](https://github.com/user-attachments/assets/42c50623-87b8-470c-8499-68dbb560b337)
 
 2. Na pagina de Pull requests:
    - Clique em `New pull request`
 
-
+![pullrequest2](https://github.com/user-attachments/assets/eda6e914-b3c1-4e84-8cc6-05a53888cd6a)
 
 3. Selecione a base e troque para `develop`:
 
-
+![pullrequest3](https://github.com/user-attachments/assets/c8b169d9-326b-4df4-830d-3845154e5623)
 
 4. No campo de pesquisa escreva `develop`:
 
-
+![pullrequest4](https://github.com/user-attachments/assets/69d101f4-e0fa-420f-9eb2-a4e64c02466d)
 
 5. Clique em `develop`:
 
-
+![pullrequest5](https://github.com/user-attachments/assets/7a6c62aa-ecfb-4e06-8c6d-d9d7295257cf)
 
 6. Selecione a compare e troque para `sua branch`:
 
-
+![pullrequest6](https://github.com/user-attachments/assets/7b3d9542-8933-46b4-b8fb-89ebf919d906)
 
 7. No campo de pesquisa procure pela sua branch:
 
-
+![pullrequest7](https://github.com/user-attachments/assets/cabbf824-e0f0-4dd8-8cb6-ed4d0f1b9397)
 
 8. Clique nela:
 
-
+![pullrequest8](https://github.com/user-attachments/assets/2b1de95a-e294-418c-bde0-59e1ae37a783)
 
 9. Clique em `Create pull request`:
 
-
+![pullrequest9](https://github.com/user-attachments/assets/6953ddba-a433-4c9f-a002-6c87046e0ccb)
 
 10. Clique na engrenagem para selecionar um `reviewer`:
    - Essa é a pessoa que vai revisar ser código.
 
-
+![pullrequest10](https://github.com/user-attachments/assets/98774ed2-a9dc-4b2b-8c5f-dd7c6e6f1e9a)
 
 11. Selecione um reviewer e dps clique fora da caixa de seleção:
 
-
-
+![pullrequest11](https://github.com/user-attachments/assets/82ea5234-77cc-4609-9945-da41028ba2be)
 
 12. Por fim, clique em `Create pull request`:
 
-
+![pullrequest12](https://github.com/user-attachments/assets/46005297-34ac-4a9b-9e7d-4f162403c23b)
 
 ## Fluxo de Trabalho com Gitflow
 
