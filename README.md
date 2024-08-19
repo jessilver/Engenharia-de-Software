@@ -107,7 +107,7 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
 
 # Como Iniciar o Projeto
 
-**Lembrando que tem um vídeo no final para melhor visualização:**
+**Lembrando que tem um vídeo no final para melhor visualização: [Ir para o vídeo](#video-para-melhor-visualizacao)**
 
 ## Configurando o Ambiente
 
