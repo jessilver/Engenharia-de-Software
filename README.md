@@ -175,6 +175,14 @@ https://github.com/user-attachments/assets/51ce9e9c-6f54-412a-9181-ff086ee55e85
 
 ## Criar uma Nova Branch para uma Feature
 
+### **OBSERVAÇÃO IMPORTANTE!:**
+
+Sempre que mudar de branch, chegar em um novo dia para fazer suas modificações, ou antes de fazer um Pull Request, execute o seguinte comando:
+```bash
+git merge origin develop
+```
+Isso é **estremamente importante** para sempre manter seu codigo **atualizado** e **evitar problemas** futuros
+
 Para criar uma nova branch para desenvolver uma feature, siga os passos abaixo:
 
 1. Certifique-se de que está na branch `develop`:
@@ -214,6 +222,60 @@ Exemplo:
    ```bash
    git push origin Feat/issue-01-correcao-de-bugs
    ```
+
+## Fazendo o Pull Request:
+
+1. Na pagina inicial do projeto no Git Hub: [Engenharia-de-Software](https://github.com/jessilver/Engenharia-de-Software)
+   - Clique em `Pull requests`
+
+
+
+2. Na pagina de Pull requests:
+   - Clique em `New pull request`
+
+
+
+3. Selecione a base e troque para `develop`:
+
+
+
+4. No campo de pesquisa escreva `develop`:
+
+
+
+5. Clique em `develop`:
+
+
+
+6. Selecione a compare e troque para `sua branch`:
+
+
+
+7. No campo de pesquisa procure pela sua branch:
+
+
+
+8. Clique nela:
+
+
+
+9. Clique em `Create pull request`:
+
+
+
+10. Clique na engrenagem para selecionar um `reviewer`:
+   - Essa é a pessoa que vai revisar ser código.
+
+
+
+11. Selecione um reviewer e dps clique fora da caixa de seleção:
+
+
+
+
+12. Por fim, clique em `Create pull request`:
+
+
 
 ## Fluxo de Trabalho com Gitflow
 
