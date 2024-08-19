@@ -162,7 +162,7 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
      cd venv/Scripts
    ```
    ```bash
-     ./activate  
+     activate  
    ```
    - Para voltar para o projeto execute os seguintes comandos:
    ```bash
