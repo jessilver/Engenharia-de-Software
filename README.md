@@ -12,7 +12,7 @@
 - [Como Iniciar o Projeto](#como-iniciar-o-projeto)
 - [Criar uma Nova Branch para uma Feature](#criar-uma-nova-branch-para-uma-feature)
 - [Realizar um Push](#realizar-um-push)
-- [Fazendo o Pull Request](fazendo-o-pull-request)
+- [Fazendo o Pull Request](#fazendo-o-pull-request)
 
 ## Informacoes Academicas
 <small>[voltar para o Sumário](#sumario)</small><br>
