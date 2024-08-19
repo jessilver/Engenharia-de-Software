@@ -28,6 +28,10 @@ Este projeto foi desenvolvido utilizando Django 5.1, HTML, CSS, BOOTSTRAP 4, Git
 - **GitHub:** Hospedagem do repositório remoto.
 - **Gitflow:** Modelo de ramificação para organização do desenvolvimento. 
 
+## Video onde mostra o projeto funcionando:
+
+- 
+
 ## Requisitos Implementados
 
 ### Requisitos Funcionais
@@ -91,13 +95,20 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
 
 ## Configurando o Ambiente
 
-1. **Certifique-se que tem o Python instalado:**
+1. **Certifique-se que tem o Python e o Git instalado:**
 
+   - **Python:**
    - No seu cmd execute o seguinte coamndo:
    ```bash
      python --version
    ```
    - Se não estiver instaldo: [Python](https://www.python.org/downloads/)
+   - **Git:**
+   - No seu cmd execute o seguinte coamndo:
+   ```bash
+     git --version
+   ```
+   - Se não estiver instaldo: [Git](https://git-scm.com/downloads)
 
 2. **Instalando o Django:**
 
@@ -106,8 +117,13 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
      pip install django
    ```
 3. **Importando repositório**
-   - em um local de sua preferência cria uma nova parte com o nome que preferir
-   - Abra essa pasta com o VS code
+
+   - Em um local de sua preferência cria uma nova parte com o nome que preferir
+   - Abra essa pasta com o VS Code (Ou outro editor, mas este tutorial é usando o vs)
+   - Abra o Git Bash do vs code e digite o seguinte codigo:
+   ```bash
+     git clone https://github.com/jessilver/Engenharia-de-Software.git
+   ```
 4. **Criando a Máquina virtual:**
 
    - Dentro do projeto (geradoPdf/) execute o seguinte coamndo:
@@ -143,6 +159,10 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
      py manage.py runserver 
    ```
    - Em seguida va para: http://127.0.0.1:8000/
+
+## Video para Melhor vizualização:
+
+
 
 ## Criar uma Nova Branch para uma Feature
 
