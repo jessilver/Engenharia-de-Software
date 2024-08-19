@@ -30,7 +30,7 @@ Este projeto foi desenvolvido utilizando Django 5.1, HTML, CSS, BOOTSTRAP 4, Git
 
 ## Video onde mostra o projeto funcionando:
 
-- https://github.com/user-attachments/assets/51ce9e9c-6f54-412a-9181-ff086ee55e85
+https://github.com/user-attachments/assets/51ce9e9c-6f54-412a-9181-ff086ee55e85
 
 ## Requisitos Implementados
 
