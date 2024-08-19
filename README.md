@@ -169,7 +169,7 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
    ```
    - Em seguida va para: http://127.0.0.1:8000/
 
-## Video para Melhor vizualização
+## Video para Melhor visualizacao
 
 https://github.com/user-attachments/assets/51ce9e9c-6f54-412a-9181-ff086ee55e85
 
