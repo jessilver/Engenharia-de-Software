@@ -15,7 +15,7 @@
 - [Fazendo o Pull Request](fazendo-o-pull-request)
 
 ## Informacoes Academicas
-<span style="color:gray">[voltar para o Sumário](#sumario)</span>
+<small>[voltar para o Sumário](#sumario)</small><br>
 
 - Universidade Federal do Tocantins
 - Curso de Bacharelado em Ciência da Computação
@@ -30,12 +30,12 @@
 - Jonatas de Sousa Madeira
 
 ## Sobre o Projeto
-<span style="color:gray">[voltar para o Sumário](#sumario)</span>
+<small>[voltar para o Sumário](#sumario)</small><br>
 
 Este projeto foi desenvolvido utilizando Django 5.1, HTML, CSS, BOOTSTRAP 4, Git, e GitHub. O objetivo é criar uma aplicação web simples cuja funcionalidade é gerar um certificado com base nas estradas que o usuário fornecer, seguindo boas práticas de versionamento de código e organização de projetos.
 
 ## Tecnologias Utilizadas
-<span style="color:gray">[voltar para o Sumário](#sumario)</span>
+<small>[voltar para o Sumário](#sumario)</small><br>
 
 - **[Django 5.1](https://www.djangoproject.com/start/):** Para o backend e lógica da aplicação.
 - **HTML:** Estruturação do conteúdo e das páginas web.
@@ -46,12 +46,12 @@ Este projeto foi desenvolvido utilizando Django 5.1, HTML, CSS, BOOTSTRAP 4, Git
 - **Gitflow:** Modelo de ramificação para organização do desenvolvimento. 
 
 ## Video onde mostra o projeto funcionando
-<span style="color:gray">[voltar para o Sumário](#sumario)</span>
+<small>[voltar para o Sumário](#sumario)</small><br>
 
 
 
 ## Requisitos Implementados
-<span style="color:gray">[voltar para o Sumário](#sumario)</span>
+<small>[voltar para o Sumário](#sumario)</small><br>
 
 ### Requisitos Funcionais
 
@@ -96,7 +96,7 @@ Este projeto foi desenvolvido utilizando Django 5.1, HTML, CSS, BOOTSTRAP 4, Git
    - O sistema deve ser acessível a partir de diversos dispositivos (computadores, tablets, smartphones).
 
 ## Padrao de Nomes para Features
-<span style="color:gray">[voltar para o Sumário](#sumario)</span>
+<small>[voltar para o Sumário](#sumario)</small><br>
 
 As features e correções devem seguir o padrão abaixo para facilitar o entendimento e rastreamento no projeto:
 - Feat/issue-numero-da-issue-descricao-da-issue
@@ -108,12 +108,12 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
 **Observação:** Não utilizar caracteres especiais. O mesmo padrão aplicado na criação de nomes de variáveis.
 
 ## Padrao de Nomes de Variaveis
-<span style="color:gray">[voltar para o Sumário](#sumario)</span>
+<small>[voltar para o Sumário](#sumario)</small><br>
 
 - camelCase
 
 # Como Iniciar o Projeto
-<span style="color:gray">[voltar para o Sumário](#sumario)</span>
+<small>[voltar para o Sumário](#sumario)</small><br>
 
 **Lembrando que tem um vídeo no final para melhor visualização: [Ir para o vídeo](#video-para-melhor-visualizacao)**
 
@@ -196,7 +196,7 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
 https://github.com/user-attachments/assets/51ce9e9c-6f54-412a-9181-ff086ee55e85
 
 ## Criar uma Nova Branch para uma Feature
-<span style="color:gray">[voltar para o Sumário](#sumario)</span>
+<small>[voltar para o Sumário](#sumario)</small><br>
 
 ### **OBSERVAÇÃO IMPORTANTE!:**
 
@@ -224,7 +224,7 @@ Para criar uma nova branch para desenvolver uma feature, siga os passos abaixo:
    ```
 
 ## Realizar um Push
-<span style="color:gray">[voltar para o Sumário](#sumario)</span>
+<small>[voltar para o Sumário](#sumario)</small><br>
 
 Após ter realizado as alterações na sua branch, siga os passos para enviar as mudanças ao repositório remoto:
 
@@ -248,7 +248,7 @@ Exemplo:
    ```
 
 ## Fazendo o Pull Request
-<span style="color:gray">[voltar para o Sumário](#sumario)</span>
+<small>[voltar para o Sumário](#sumario)</small><br>
 
 1. Na pagina inicial do projeto no Git Hub: [Engenharia-de-Software](https://github.com/jessilver/Engenharia-de-Software)
    - Clique em `Pull requests`
