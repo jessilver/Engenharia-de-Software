@@ -145,7 +145,7 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
 
 3. **Criando a Máquina virtual:**
 
-   - No proptio terminal do VS execute o seguinte comando:
+   - No próprio terminal do VS execute o seguinte comando:
    ```bash
      cd Engenharia-de-Software/ProjetoCertificadoPdf/geradoPdf
    ```
