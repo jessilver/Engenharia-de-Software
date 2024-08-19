@@ -16,17 +16,61 @@
 
 ## Sobre o Projeto
 
-Este projeto foi desenvolvido utilizando Django 5.1, HTML, CSS, BOOTSTRAP 5, Git, e GitHub. O objetivo é criar uma aplicação web simples, seguindo boas práticas de versionamento de código e organização de projetos.
+Este projeto foi desenvolvido utilizando Django 5.1, HTML, CSS, BOOTSTRAP 4, Git, e GitHub. O objetivo é criar uma aplicação web simples cuja funcionalidade é gerar um certificado com base nas estradas que o usuário fornecer, seguindo boas práticas de versionamento de código e organização de projetos.
 
 ## Tecnologias Utilizadas
 
 - **[Django 5.1](https://www.djangoproject.com/start/):** Para o backend e lógica da aplicação.
 - **HTML:** Estruturação do conteúdo e das páginas web.
 - **CSS:** Estilização das páginas web para uma melhor experiência do usuário.
-- **[BOOTSTRAP 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/):** Estilização das páginas web para uma melhor experiência do usuário.
+- **[BOOTSTRAP 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/):** Estilização das páginas web para uma melhor experiência do usuário.
 - **Git:** Controle de versão do código.
 - **GitHub:** Hospedagem do repositório remoto.
 - **Gitflow:** Modelo de ramificação para organização do desenvolvimento. 
+
+## Requisitos Implementados
+
+### Requisitos Funcionais
+
+1. **Coleta de Dados dos Alunos:**
+
+   - O sistema deve permitir que o usuário insira o nome do aluno.
+   - O sistema deve permitir que o usuário insira o CPF do aluno.
+   - O sistema deve permitir que o usuário insira o RG do aluno.
+   - O sistema deve permitir que o usuário insira as datas de início e fim do curso no formato dd/mm/aaaa.
+   - O sistema deve permitir que o usuário insira a carga horária do curso em horas.
+   - O sistema deve permitir que o usuário insira o nome da instituição do curso.
+   - O sistema deve permitir que o usuário insira o nome do responsável pelo curso.
+
+2. Validação dos Dados:
+
+   - O sistema deve validar se o CPF e RG inseridos estão no formato correto.
+
+3. Geração de PDF:
+
+   - O sistema deve gerar um documento PDF contendo todas as informações inseridas.
+   - O sistema deve permitir que o usuário faça o download do PDF gerado.
+
+### Requisitos Não-Funcionais
+
+1. Segurança:
+
+   - O sistema deve garantir que os dados dos alunos sejam armazenados de forma segura, utilizando encriptação para informações sensíveis como CPF e RG.
+   - O sistema deve implementar controles de acesso para garantir que apenas utilizadores autorizados possam gerar ou visualizar os PDFs.
+
+2. Desempenho:
+
+   - O sistema deve gerar o PDF em menos de 2 segundos após a solicitação.
+   - O sistema deve ser capaz de suportar a inserção simultânea de dados por múltiplos utilizadores sem comprometer o desempenho.
+
+2. Usabilidade:
+
+   - O sistema deve ter uma interface de utilizador intuitiva e fácil de usar, com campos de entrada claramente identificados e instruções claras.
+   - O sistema deve fornecer feedback imediato ao utilizador em caso de erro na inserção de dados.
+
+4. Compatibilidade:
+
+   - O sistema deve ser acessível a partir de diversos dispositivos (computadores, tablets, smartphones).
 
 ## Padrão de Nomes para Features
 
@@ -38,6 +82,10 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
 `Feat/issue-01-correcao-de-bugs`
 
 **Observação:** Não utilizar caracteres especiais. O mesmo padrão aplicado na criação de nomes de variáveis.
+
+## Padrão de Nomes de Variáveis
+
+- camelCase
 
 # Como Iniciar o Projeto
 
@@ -57,8 +105,10 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
    ```bash
      pip install django
    ```
-
-3. **Criando a Máquina virtual:**
+3. **Importando repositório**
+   - em um local de sua preferência cria uma nova parte com o nome que preferir
+   - Abra essa pasta com o VS code
+4. **Criando a Máquina virtual:**
 
    - Dentro do projeto (geradoPdf/) execute o seguinte coamndo:
    ```bash
@@ -79,14 +129,14 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
      cd .. 
    ```
 
-4. **Instalando os requisitos na Máquina Virtual:**
+5. **Instalando os requisitos na Máquina Virtual:**
 
    - No seu cmd execute o seguinte coamndo:
    ```bash
      pip install -r requirements.txt
    ```
 
-5. **Iniciando o servidor:**
+6. **Iniciando o servidor:**
 
    - Dentro do projeto (geradoPdf/) execute o seguinte coamndo:
    ```bash
