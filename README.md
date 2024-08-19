@@ -1,6 +1,20 @@
 ﻿# Projeto - Criação de Certificado pdf
 
-## Informações Acadêmicas:
+## Sumário
+
+- [Informações Acadêmicas](#informacoes-academicas)
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Video onde mostra o projeto funcionando](#video-onde-mostra-o-projeto-funcionando)
+- [Requisitos Implementados](#requisitos-implementados)
+- [Padrão de Nomes para Features](#padrao-de-nomes-para-features)
+- [Padrão de Nomes de Variáveis](#padrao-de-nomes-variaveis)
+- [Como Iniciar o Projeto](#como-iniciar-o-projeto)
+- [Criar uma Nova Branch para uma Feature](#criar-uma-nova-branch-para-uma-feature)
+- [Realizar um Push](#realizar-um-push)
+- [Fazendo o Pull Request](fazendo-o-pull-request)
+
+## Informacoes Academicas
 
 - Universidade Federal do Tocantins
 - Curso de Bacharelado em Ciência da Computação
@@ -8,7 +22,7 @@
 - Turma 2024/2
 - Professor Dr. Edeilson Milhomem da Silva
 
-### Integrantes:
+### Integrantes
 - Arthur Lima Duarte
 - Gabriel Fernades Zamora
 - Jessé Eliseu Nunes da Silva
@@ -28,7 +42,7 @@ Este projeto foi desenvolvido utilizando Django 5.1, HTML, CSS, BOOTSTRAP 4, Git
 - **GitHub:** Hospedagem do repositório remoto.
 - **Gitflow:** Modelo de ramificação para organização do desenvolvimento. 
 
-## Video onde mostra o projeto funcionando:
+## Video onde mostra o projeto funcionando
 
 
 
@@ -76,7 +90,7 @@ Este projeto foi desenvolvido utilizando Django 5.1, HTML, CSS, BOOTSTRAP 4, Git
 
    - O sistema deve ser acessível a partir de diversos dispositivos (computadores, tablets, smartphones).
 
-## Padrão de Nomes para Features
+## Padrao de Nomes para Features
 
 As features e correções devem seguir o padrão abaixo para facilitar o entendimento e rastreamento no projeto:
 - Feat/issue-numero-da-issue-descricao-da-issue
@@ -87,7 +101,7 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
 
 **Observação:** Não utilizar caracteres especiais. O mesmo padrão aplicado na criação de nomes de variáveis.
 
-## Padrão de Nomes de Variáveis
+## Padrao de Nomes de Variaveis
 
 - camelCase
 
@@ -223,7 +237,7 @@ Exemplo:
    git push origin Feat/issue-01-correcao-de-bugs
    ```
 
-## Fazendo o Pull Request:
+## Fazendo o Pull Request
 
 1. Na pagina inicial do projeto no Git Hub: [Engenharia-de-Software](https://github.com/jessilver/Engenharia-de-Software)
    - Clique em `Pull requests`
