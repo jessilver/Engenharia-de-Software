@@ -110,13 +110,7 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
    ```
    - Se não estiver instaldo: [Git](https://git-scm.com/downloads)
 
-2. **Instalando o Django:**
-
-   - No seu cmd execute o seguinte coamndo:
-   ```bash
-     pip install django
-   ```
-3. **Importando repositório**
+2. **Importando repositório**
 
    - Em um local de sua preferência cria uma nova parte com o nome que preferir
    - Abra essa pasta com o VS Code (Ou outro editor, mas este tutorial é usando o vs)
@@ -124,8 +118,13 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
    ```bash
      git clone https://github.com/jessilver/Engenharia-de-Software.git
    ```
-4. **Criando a Máquina virtual:**
 
+3. **Criando a Máquina virtual:**
+
+   - No proptio terminal do VS execute o seguinte comando:
+   ```bash
+     cd Engenharia-de-Software/ProjetoCertificadoPdf/geradoPdf
+   ```
    - Dentro do projeto (geradoPdf/) execute o seguinte coamndo:
    ```bash
      py -m venv venv
@@ -135,7 +134,7 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
      cd venv/Scripts
    ```
    ```bash
-     activate  
+     ./activate  
    ```
    - Para voltar para o projeto execute os seguintes comandos:
    ```bash
@@ -145,14 +144,14 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
      cd .. 
    ```
 
-5. **Instalando os requisitos na Máquina Virtual:**
+4. **Instalando os requisitos na Máquina Virtual:**
 
    - No seu cmd execute o seguinte coamndo:
    ```bash
      pip install -r requirements.txt
    ```
 
-6. **Iniciando o servidor:**
+5. **Iniciando o servidor:**
 
    - Dentro do projeto (geradoPdf/) execute o seguinte coamndo:
    ```bash
