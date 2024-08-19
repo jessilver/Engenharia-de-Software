@@ -125,6 +125,10 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
    ```bash
      cd Engenharia-de-Software/ProjetoCertificadoPdf/geradoPdf
    ```
+   - mude de branch com o seguinte comando:
+   ```bash
+     git checkout develop
+   ```
    - Dentro do projeto (geradoPdf/) execute o seguinte coamndo:
    ```bash
      py -m venv venv
