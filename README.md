@@ -30,7 +30,7 @@ Este projeto foi desenvolvido utilizando Django 5.1, HTML, CSS, BOOTSTRAP 4, Git
 
 ## Video onde mostra o projeto funcionando:
 
-- 
+- [Assista ao vídeo](./ProjetoCertificadoPdf/video.mp4)
 
 ## Requisitos Implementados
 
@@ -157,6 +157,10 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
 
 5. **Iniciando o servidor:**
 
+   - Mode para o terminao padrão e execute o seguinte comando:
+   ```bash
+     cd Engenharia-de-Software/ProjetoCertificadoPdf/geradoPdf
+   ```
    - Dentro do projeto (geradoPdf/) execute o seguinte coamndo:
    ```bash
      py manage.py runserver 
