@@ -14,36 +14,50 @@ class Index(View):
         image_path = os.path.join(settings.BASE_DIR, 'gpdf', 'static', 'image', 'certificado_base.jpg')
         certificado = Image.open(image_path)
 
-        fonte = ImageFont.truetype("arial.ttf", 75)
-        nomeAluno = request.POST.get('nomeAluno')
-        cpfAluno = request.POST.get('cpfAluno')
-        nomeCurso = request.POST.get('nomeCurso')
-        inicioCurso = request.POST.get('inicioCurso')
-        fimCurso = request.POST.get('fimCurso')
-        cargaHoraria = request.POST.get('cargaHoraria')
+        
+        fonteNome = ImageFont.truetype("arial.ttf", 175)
+        fontePadrao = ImageFont.truetype("arial.ttf", 110)
+
+        
+        nomeAluno = request.POST.get('nomeAluno') or ""
+        cpfAluno = request.POST.get('cpfAluno') or ""
+        rgAluno = request.POST.get('rgAluno') or ""
+        nomeCurso = request.POST.get('nomeCurso') or ""
+        inicioCurso = request.POST.get('inicioCurso') or ""
+        fimCurso = request.POST.get('fimCurso') or ""
+        cargaHoraria = request.POST.get('cargaHoraria') or ""
+        instituicao = request.POST.get('instituicao') or ""
+        diretor = request.POST.get('diretor') or ""
         
         desenho = ImageDraw.Draw(certificado)
 
-        fonte = ImageFont.truetype("arial.ttf", 75)
+        
+        posicaoNome = (2030, 2080)
+        posicaoCpf = (2540, 2400)
+        posicaoRg = (3850, 2400)
+        posicaoCurso = (730, 2590)
+        posicaoInicio = (2970, 2590)
+        posicaoFim = (3850, 2590)
+        posicaoCargaHoraria = (1650, 2790)
+        posicaoInstituicao = (1650, 2790)
+        posicaodiretor = (510, 3345)
+        
 
-        posicaoNome = (1330, 1050)
-        posicaoCurso = (2200, 1250)
-        posicaoCinicio = (975, 1345)
-        posicaoCfim = (1355, 1345)
-        posicaoCargahoraria = (2580, 1345)
-        posicaoCpf = (570, 1250)
+        
+        desenho.text(posicaoNome, nomeAluno, font=fonteNome, fill="black")
+        desenho.text(posicaoCpf, cpfAluno, font=fontePadrao, fill="black")
+        desenho.text(posicaoRg, rgAluno, font=fontePadrao, fill="black")
+        desenho.text(posicaoCurso, nomeCurso, font=fontePadrao, fill="black")
+        desenho.text(posicaoInicio, inicioCurso, font=fontePadrao, fill="black")
+        desenho.text(posicaoFim, fimCurso, font=fontePadrao, fill="black")
+        desenho.text(posicaoCargaHoraria, cargaHoraria, font=fontePadrao, fill="black")
+        desenho.text(posicaoInstituicao, instituicao, font=fontePadrao, fill="black")
+        desenho.text(posicaodiretor, diretor, font=fontePadrao, fill="black")
+        
 
-        desenho.text(posicaoNome, nomeAluno, font=fonte, fill="black")
-        desenho.text(posicaoCurso, nomeCurso, font=fonte, fill="black")
-        desenho.text(posicaoCinicio, inicioCurso, font=fonte, fill="black")
-        desenho.text(posicaoCfim, fimCurso, font=fonte, fill="black")
-        desenho.text(posicaoCargahoraria, cargaHoraria, font=fonte, fill="black")
-        desenho.text(posicaoCpf, cpfAluno, font=fonte, fill="black")
-
-        # Salvar a imagem com o texto adicionado como JPG
-        final_path = os.path.join(settings.BASE_DIR, 'gpdf', 'static', 'image', 'certificado_final.jpg')
-        certificado.save(final_path)
-
+        
+        finalPath = os.path.join(settings.BASE_DIR, 'gpdf', 'static', 'image', 'certificado_final.jpg')
+        certificado.save(finalPath)
 
         return render(request, "index.html")
     
