@@ -27,7 +27,7 @@
             <div class="row g-3 mb-2">
                 <div class="col">
                     <label for="cpfAluno" class="form-label">CPF do aluno:</label>
-                    <input type="text" class="form-control" id="cpfAluno" placeholder="Digite o CPF do aluno" oninput="formataCPF(this)" maxlength="14"> <!-- 14 -->
+                    <input type="text" name="cpfAluno" class="form-control" id="cpfAluno" placeholder="Digite o CPF do aluno" oninput="formataCPF(this)" maxlength="14"> <!-- 14 -->
                 </div>
                 <div class="col">
                     <label for="rgAluno" class="form-label">RG do aluno:</label>
@@ -38,19 +38,19 @@
             <div class="row g-3">
                 <div class="col">
                     <label for="inicioCurso" class="form-label">Inicio do curso:</label>
-                    <input type="date" class="form-control" id="inicioCurso" placeholder="dd/mm/aaaa">
+                    <input type="date" name="inicioCurso" class="form-control" id="inicioCurso" placeholder="dd/mm/aaaa">
                 </div>
                 <div class="col">
                     <label for="fimCurso" class="form-label">Fim do curso:</label>
-                    <input type="date" class="form-control" id="fimCurso" placeholder="dd/mm/aaaa">
+                    <input type="date" name="fimCurso" class="form-control" id="fimCurso" placeholder="dd/mm/aaaa">
                 </div>
             </div>
 
             <label for="nomeCurso" class="form-label">Curso:</label>
-            <input type="text" class="form-control mb-2" id="nomeCurso" placeholder="Digite o nome do curso">
+            <input type="text" name="nomeCurso" class="form-control mb-2" id="nomeCurso" placeholder="Digite o nome do curso">
 
             <label for="cargaHoraria" class="form-label">Carga horária (horas):</label>
-            <input type="number" class="form-control mb-2" id="cargaHoraria" placeholder="Carga horária do curso (em horas)">
+            <input type="number" name="cargaHoraria" class="form-control mb-2" id="cargaHoraria" placeholder="Carga horária do curso (em horas)">
 
             <div class="row g-3 mb-2">
                 <div class="col">
