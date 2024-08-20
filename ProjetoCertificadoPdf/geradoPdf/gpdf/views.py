@@ -1,7 +1,9 @@
+import os
 from urllib import request
 from django.shortcuts import render
 from django.views.generic import View
 from PIL import Image, ImageDraw, ImageFont
+from geradoPdf import settings
 
 class Index(View):
     def get(self, request):
@@ -9,7 +11,8 @@ class Index(View):
     
     def post(self, request):
 
-        certificado = Image.open("static/image/certificado_base.jpg")
+        image_path = os.path.join(settings.BASE_DIR, 'gpdf', 'static', 'image', 'certificado_base.jpg')
+        certificado = Image.open(image_path)
 
         fonte = ImageFont.truetype("arial.ttf", 75)
         nomeAluno = request.POST.get('nomeAluno')
@@ -38,7 +41,8 @@ class Index(View):
         desenho.text(posicaoCpf, cpfAluno, font=fonte, fill="black")
 
         # Salvar a imagem com o texto adicionado como JPG
-        certificado.save("static/image/certificado_final.jpg")
+        final_path = os.path.join(settings.BASE_DIR, 'gpdf', 'static', 'image', 'certificado_final.jpg')
+        certificado.save(final_path)
 
 
         return render(request, "index.html")
