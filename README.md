@@ -76,24 +76,13 @@ https://github.com/user-attachments/assets/e9141e28-ed95-42d7-a736-ea0562fd2d1a
 
 ### Requisitos Não-Funcionais
 
-1. Segurança:
+1. Desempenho:
 
-   - O sistema deve garantir que os dados dos alunos sejam armazenados de forma segura, utilizando encriptação para informações sensíveis como CPF e RG.
-   - O sistema deve implementar controles de acesso para garantir que apenas utilizadores autorizados possam gerar ou visualizar os PDFs.
-
-2. Desempenho:
-
-   - O sistema deve gerar o PDF em menos de 2 segundos após a solicitação.
-   - O sistema deve ser capaz de suportar a inserção simultânea de dados por múltiplos utilizadores sem comprometer o desempenho.
+   - O sistema deve gerar o PDF em até 2 segundos após a solicitação.
 
 2. Usabilidade:
 
    - O sistema deve ter uma interface de utilizador intuitiva e fácil de usar, com campos de entrada claramente identificados e instruções claras.
-   - O sistema deve fornecer feedback imediato ao utilizador em caso de erro na inserção de dados.
-
-4. Compatibilidade:
-
-   - O sistema deve ser acessível a partir de diversos dispositivos (computadores, tablets, smartphones).
 
 ## Padrao de Nomes para Features
 <small>[voltar para o Sumário](#sumario)</small><br>
