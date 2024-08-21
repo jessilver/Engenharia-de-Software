@@ -22,16 +22,14 @@
             <label for="nomeAluno" class="form-label">Nome do aluno:</label>
             <input type="text" class="form-control mb-2" id="nomeAluno" name="nomeAluno" placeholder="Digite o nome do aluno">
 
-            
-
             <div class="row g-3 mb-2">
                 <div class="col">
                     <label for="cpfAluno" class="form-label">CPF do aluno:</label>
-                    <input type="text" name="cpfAluno" class="form-control" id="cpfAluno" placeholder="Digite o CPF do aluno" oninput="formataCPF(this)" maxlength="14"> <!-- 14 -->
+                    <input type="text" name="cpfAluno" class="form-control" id="cpfAluno" placeholder="Digite o CPF do aluno" oninput="formataCPF(this)" maxlength="14">
                 </div>
                 <div class="col">
                     <label for="rgAluno" class="form-label">RG do aluno:</label>
-                    <input type="text" class="form-control" id="rgAluno" oninput="formataRG(this)" placeholder="Digite o RG do aluno" maxlength="11">
+                    <input type="text" class="form-control" id="rgAluno" name="rgAluno" placeholder="Digite o RG do aluno" oninput="formataRG(this)" maxlength="11">
                 </div>
             </div>
 
@@ -55,16 +53,25 @@
             <div class="row g-3 mb-2">
                 <div class="col">
                     <label for="instituicaoCurso" class="form-label">Instituição:</label>
-                    <input type="text" class="form-control" id="instituicaoCurso" placeholder="Instituição do curso">
+                    <input type="text" class="form-control" id="instituicaoCurso" name="instituicao" placeholder="Instituição do curso">
                 </div>
                 <div class="col">
                     <label for="responsavelCurso" class="form-label">Responsável:</label>
-                    <input type="text" class="form-control" id="responsavelCurso" placeholder="Digite o nome do responsável pelo curso">
+                    <input type="text" class="form-control" id="responsavelCurso" name="diretor" placeholder="Digite o nome do responsável pelo curso">
                 </div>
             </div>
 
-            <button class="btn btn-success botaoCadastrar mt-3" type="submit">Cadastrar</button>
+            <button class="btn btn-success mt-3" type="submit">Cadastrar</button>
+            {% if pdf_url %}
+            <form method="get" action="{% url 'index' %}" >
+                <div class="mt-3">
+                    <a href="{{ pdf_url }}" class="btn btn-primary w-100">Baixar Certificado</a>
+                </div>
+            </form>
+            {% endif %}
         </form>
+
+        
     </div>
 </body>
 
