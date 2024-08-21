@@ -5,8 +5,6 @@ from django.views.generic import View
 from PIL import Image, ImageDraw, ImageFont
 from geradoPdf import settings
 from PIL import Image #pip install pillow
-import os
-
 
 class Index(View):
     def get(self, request):
