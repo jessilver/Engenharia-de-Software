@@ -43,7 +43,11 @@ Este projeto foi desenvolvido utilizando Django 5.1, HTML, CSS, BOOTSTRAP 4, Git
 - **[BOOTSTRAP 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/):** Estilização das páginas web para uma melhor experiência do usuário.
 - **Git:** Controle de versão do código.
 - **GitHub:** Hospedagem do repositório remoto.
-- **Gitflow:** Modelo de ramificação para organização do desenvolvimento. 
+- **Gitflow:** Modelo de ramificação para organização do desenvolvimento.
+
+## Apresentação do projeto:
+
+https://github.com/user-attachments/assets/ad74d0ad-5ee1-4b3d-b91f-f2085a82a84b
 
 ## Video onde mostra o projeto funcionando
 <small>[voltar para o Sumário](#sumario)</small><br>
