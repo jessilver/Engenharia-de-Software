@@ -48,7 +48,7 @@ Este projeto foi desenvolvido utilizando Django 5.1, HTML, CSS, BOOTSTRAP 4, Git
 ## Video onde mostra o projeto funcionando
 <small>[voltar para o Sumário](#sumario)</small><br>
 
-
+https://github.com/user-attachments/assets/e9141e28-ed95-42d7-a736-ea0562fd2d1a
 
 ## Requisitos Implementados
 <small>[voltar para o Sumário](#sumario)</small><br>
@@ -181,7 +181,7 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
 
 5. **Iniciando o servidor:**
 
-   - Mode para o terminao padrão e execute o seguinte comando:
+   - Mude para o terminal padrão e execute o seguinte comando:
    ```bash
      cd Engenharia-de-Software/ProjetoCertificadoPdf/geradoPdf
    ```
@@ -193,7 +193,7 @@ As features e correções devem seguir o padrão abaixo para facilitar o entendi
 
 ## Video para Melhor visualizacao
 
-https://github.com/user-attachments/assets/51ce9e9c-6f54-412a-9181-ff086ee55e85
+https://github.com/user-attachments/assets/402acb87-6c74-4cb2-b04f-4b7944cba08a
 
 ## Criar uma Nova Branch para uma Feature
 <small>[voltar para o Sumário](#sumario)</small><br>
