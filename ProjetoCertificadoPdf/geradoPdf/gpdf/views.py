@@ -11,8 +11,8 @@ class Index(View):
         return render(request, 'index.html')
     
     def post(self, request):
-        image_path = os.path.join(settings.BASE_DIR, 'gpdf', 'static', 'image', 'certificado_base.jpg')
-        certificado = Image.open(image_path)
+        imagePath = os.path.join(settings.BASE_DIR, 'gpdf', 'static', 'image', 'certificado_base.jpg')
+        certificado = Image.open(imagePath)
 
         try:
             fonteNome = ImageFont.truetype("arial.ttf", 175)
@@ -46,24 +46,24 @@ class Index(View):
         desenho.text((3220, 2770), instituicao, font=fontePadrao, fill="black")
         desenho.text((510, 3320), diretor, font=fontePadrao, fill="black")
 
-        finalPath = os.path.join(settings.BASE_DIR, 'gpdf', 'static', 'image', 'certificado_final.jpg')
+        finalPath = os.path.join(settings.BASE_DIR, 'gpdf', 'static', 'image', 'certificadoFinal.jpg')
         certificado.save(finalPath)
 
-        largura_px, altura_px = certificado.size
+        larguraPx, alturaPx = certificado.size
 
-        largura_mm = largura_px * 25.4 / 72
-        altura_mm = altura_px * 25.4 / 72
+        larguraMm = larguraPx * 25.4 / 72
+        alturaMm = alturaPx * 25.4 / 72
 
         outputDir = os.path.join(settings.BASE_DIR, 'gpdf', 'static', 'pdf')
         if not os.path.exists(outputDir):
             os.makedirs(outputDir)
 
-        pdf_filename = f'certificado_{nomeAluno}.pdf'
-        pdf_path = os.path.join(outputDir, pdf_filename.replace(" ","-"))
+        pdfFilename = f'certificado_{nomeAluno}.pdf'
+        pdfPath = os.path.join(outputDir, pdfFilename.replace(" ","-"))
 
-        pdf = FPDF(unit="mm", format=[largura_mm, altura_mm])
+        pdf = FPDF(unit="mm", format=[larguraMm, alturaMm])
         pdf.add_page()
-        pdf.image(finalPath, x=0, y=0, w=largura_mm, h=altura_mm)
-        pdf.output(pdf_path)
+        pdf.image(finalPath, x=0, y=0, w=larguraMm, h=alturaMm)
+        pdf.output(pdfPath)
 
-        return render(request, "index.html", {'success': 'Certificado gerado com sucesso!', 'pdf_url': f'/static/pdf/{pdf_filename.replace(" ","-")}'})
+        return render(request, "index.html", {'success': 'Certificado gerado com sucesso!', 'pdfUrl': f'/static/pdf/{pdfFilename.replace(" ","-")}'})
